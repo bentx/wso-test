@@ -2,10 +2,10 @@ environments:
   - name: dev
     endpoints:
       production:
-        url: http://localhost:9334/
+        url: http://localhost:9443/
           config:
             retryTimeOut: $RETRY
           
         sandbox:
-          url: http://localhost:9334/
+          url: http://localhost:9443/
    
