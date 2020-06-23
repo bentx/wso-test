@@ -1,12 +1,12 @@
 {
   "id": {
     "providerName": "admin",
-    "apiName": "testapi33211",
+    "apiName": "testapi332112",
     "version": "1.0"
   },
   "uuid": "9c7712a9-3a1b-415c-87f3-120960f328e0",
   "type": "HTTP",
-  "context": "/testapi33211/1.0",
+  "context": "/testapi332112/1.0",
   "contextTemplate": "/testapi332/{version}",
   "tags": [],
   "documents": [],
