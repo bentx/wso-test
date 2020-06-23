@@ -5,7 +5,7 @@ echo working
 echo $(which apimcli )
 apimcli  version
 
-rd /s /q $HOME/.wso2apictl
+rd /s /q "$HOME/.wso2apictl"
 
 echo 'setting up dev environment'
 apimcli add-env -e dev \
