@@ -3,8 +3,6 @@ environments:
     endpoints:
       production:
         url: http://localhost:9443/
-          config:
-            retryTimeOut: $RETRY
           
         sandbox:
           url: http://localhost:9443/
