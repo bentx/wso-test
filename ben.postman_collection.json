@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "ac856b87-a8dc-4435-922c-d5e830db5490",
+		"name": "ben",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.1.6:8280/testf/1.0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f9d9fe2d-076b-46f7-985c-013891d33fc4",
+						"exec": [
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "dcf2d446-b367-3a8b-b136-0a319224e3b0",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "hello"
+				},
+				"url": {
+					"raw": "http://192.168.1.6:8280/testf/1.0",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"6"
+					],
+					"port": "8280",
+					"path": [
+						"testf",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
