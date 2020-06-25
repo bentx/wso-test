@@ -8,6 +8,6 @@ environments:
     - name: prod
       endpoints:
         production:
-          url: http://localhosti:9444/
+          url: http://localhostie:9444/
         sandbox:
-          url: http://localhosti:9444/
+          url: http://localhostie:9444/
