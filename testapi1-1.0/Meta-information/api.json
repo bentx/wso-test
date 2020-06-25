@@ -1,16 +1,17 @@
 {
   "id": {
     "providerName": "admin",
-    "apiName": "finaltest123",
-    "version": "1.0"
+    "apiName": "SwaggerPetstore",
+    "version": "1.0.0"
   },
-  "uuid": "77783736-5055-41f1-97b3-60f3924f3f76",
+  "uuid": "4e70e15c-dd4d-405c-825d-38117b3d4842",
+  "description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.",
   "type": "HTTP",
-  "context": "/testf123/1.0",
-  "contextTemplate": "/testf123/{version}",
+  "context": "/v2/1.0.0",
+  "contextTemplate": "/v2/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Jun 24, 2020 11:47:49 AM",
+  "lastUpdated": "Jul 10, 2019 10:57:05 AM",
   "availableTiers": [
     {
       "name": "Unlimited",
@@ -27,7 +28,82 @@
   "availableSubscriptionLevelPolicies": [],
   "uriTemplates": [
     {
-      "uriTemplate": "/*",
+      "uriTemplate": "/pet",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST",
+        "PUT"
+      ],
+      "authTypes": [
+        "Any",
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited",
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null,
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user/{username}",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET",
+        "DELETE",
+        "PUT"
+      ],
+      "authTypes": [
+        "Any",
+        "Any",
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited",
+        "Unlimited",
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null,
+        null,
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/pet/findByStatus",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user/createWithList",
       "httpVerb": "POST",
       "authType": "Any",
       "httpVerbs": [
@@ -46,16 +122,238 @@
         null
       ],
       "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/pet/{petId}/uploadImage",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/store/inventory",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user/login",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user/createWithArray",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/pet/findByTags",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/store/order",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/user/logout",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/pet/{petId}",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST",
+        "GET",
+        "DELETE"
+      ],
+      "authTypes": [
+        "Any",
+        "Any",
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited",
+        "Unlimited",
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null,
+        null,
+        null
+      ],
+      "mediationScripts": {}
+    },
+    {
+      "uriTemplate": "/store/order/{orderId}",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET",
+        "DELETE"
+      ],
+      "authTypes": [
+        "Any",
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited",
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null,
+        null
+      ],
+      "mediationScripts": {}
     }
   ],
   "apiHeaderChanged": false,
   "apiResourcePatternsChanged": false,
-  "status": "CREATED",
+  "status": "PUBLISHED",
   "visibility": "public",
+  "gatewayLabels": [],
   "endpointSecured": false,
   "endpointAuthDigest": false,
   "transports": "http,https",
-  "inSequence": "aou_view_receipt_out_flow",
   "advertiseOnly": false,
   "corsConfiguration": {
     "corsConfigurationEnabled": false,
@@ -78,7 +376,7 @@
       "OPTIONS"
     ]
   },
-  "endpointConfig": "{\"production_endpoints\":{\"url\":\"https://799a7fa7-4a2b-45e8-bb99-44bd1fd7321c.mock.pstmn.io/tr\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"https://799a7fa7-4a2b-45e8-bb99-44bd1fd7321c.mock.pstmn.io/tr\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:8080\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://localhost:8081\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
   "responseCache": "Disabled",
   "cacheTimeout": 300,
   "implementation": "ENDPOINT",
@@ -88,12 +386,16 @@
   "environments": [
     "Production and Sandbox"
   ],
-  "createdTime": "1592979366704",
+  "createdTime": "1562736377395",
   "additionalProperties": {},
+  "monetizationProperties": {},
+  "isMonetizationEnabled": false,
   "environmentList": [
     "SANDBOX",
     "PRODUCTION"
   ],
+  "apiSecurity": "oauth2,oauth_basic_auth_mandatory",
+  "endpoints": [],
   "accessControl": "all",
   "rating": 0.0,
   "isLatest": true
