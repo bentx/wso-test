@@ -42,19 +42,16 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "hello",
-					"options": {
-						"raw": {}
-					}
+					"raw": "hello"
 				},
 				"url": {
-					"raw": "http://192.168.1.6:8281/testf/1.0",
+					"raw": "http://192.168.43.252:8281/testf/1.0",
 					"protocol": "http",
 					"host": [
 						"192",
 						"168",
-						"1",
-						"6"
+						"43",
+						"252"
 					],
 					"port": "8281",
 					"path": [
