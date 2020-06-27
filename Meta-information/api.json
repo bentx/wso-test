@@ -1,16 +1,16 @@
 {
   "id": {
     "providerName": "admin",
-    "apiName": "testapi1assqw",
+    "apiName": "atestapi",
     "version": "1.0"
   },
-  "uuid": "639272a7-80eb-40a1-bcd0-600c9cc02989",
+  "uuid": "18ba7428-bcd2-472b-8765-3c71b6b83bf6",
   "type": "HTTP",
-  "context": "/testapi1assqw/1.0",
-  "contextTemplate": "/testapi1assqw/{version}",
+  "context": "/atestapi/1.0",
+  "contextTemplate": "/atestapi/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Jun 19, 2020 7:25:16 PM",
+  "lastUpdated": "Jun 27, 2020 1:03:47 PM",
   "availableTiers": [
     {
       "name": "Unlimited",
@@ -28,21 +28,37 @@
   "uriTemplates": [
     {
       "uriTemplate": "/*",
-      "httpVerb": "POST",
+      "httpVerb": "PATCH",
       "authType": "Any",
       "httpVerbs": [
-        "POST"
+        "PATCH",
+        "POST",
+        "GET",
+        "DELETE",
+        "PUT"
       ],
       "authTypes": [
+        "Any",
+        "Any",
+        "Any",
+        "Any",
         "Any"
       ],
       "throttlingConditions": [],
       "throttlingTier": "Unlimited",
       "throttlingTiers": [
+        "Unlimited",
+        "Unlimited",
+        "Unlimited",
+        "Unlimited",
         "Unlimited"
       ],
       "mediationScript": "null",
       "scopes": [
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "mediationScripts": {}
@@ -77,7 +93,7 @@
       "OPTIONS"
     ]
   },
-  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:3000/\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://localhost:3000/\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:4001/\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://localhost:4001/\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
   "responseCache": "Disabled",
   "cacheTimeout": 300,
   "implementation": "ENDPOINT",
@@ -87,7 +103,7 @@
   "environments": [
     "Production and Sandbox"
   ],
-  "createdTime": "1592574867389",
+  "createdTime": "1592892178248",
   "additionalProperties": {},
   "environmentList": [
     "SANDBOX",
