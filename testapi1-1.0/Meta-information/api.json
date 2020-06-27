@@ -1,13 +1,13 @@
 {
   "id": {
     "providerName": "admin",
-    "apiName": "testapi2q",
+    "apiName": "testapidemo",
     "version": "1.0"
   },
   "uuid": "9c7712a9-3a1b-415c-87f3-120960f328e0",
   "type": "HTTP",
-  "context": "/testapi2q/1.0",
-  "contextTemplate": "/testapi2q/{version}",
+  "context": "/testapi2demo/1.0",
+  "contextTemplate": "/testapidemo/{version}",
   "tags": [],
   "documents": [],
   "lastUpdated": "Jun 19, 2020 8:03:14 PM",
