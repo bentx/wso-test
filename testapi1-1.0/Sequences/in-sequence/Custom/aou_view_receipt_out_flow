@@ -1,5 +1,0 @@
-<sequence xmlns="http://ws.apache.org/ns/synapse" name="aou_view_receipt_out_flow" trace="disable">
-	<!--Step 1 : Remove response from payload and add valid xml object to envelope -->
-		<log level="full"/>
-		
-</sequence>

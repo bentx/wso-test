@@ -1,25 +1,16 @@
 {
   "id": {
     "providerName": "admin",
-<<<<<<< HEAD
-    "apiName": "finaltest1rt",
-=======
-    "apiName": "testapidemo",
->>>>>>> 1a9546ee91a1e782aab7518e27d91163ef6d475f
+    "apiName": "testapi1ass",
     "version": "1.0"
   },
-  "uuid": "9c7712a9-3a1b-415c-87f3-120960f328e0",
+  "uuid": "639272a7-80eb-40a1-bcd0-600c9cc02989",
   "type": "HTTP",
-<<<<<<< HEAD
-  "context": "/testf1rt/1.0",
-  "contextTemplate": "/testf1rt/{version}",
-=======
-  "context": "/testapi2demo/1.0",
-  "contextTemplate": "/testapidemo/{version}",
->>>>>>> 1a9546ee91a1e782aab7518e27d91163ef6d475f
+  "context": "/testapi1ass/1.0",
+  "contextTemplate": "/testapi1ass/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Jun 19, 2020 8:03:14 PM",
+  "lastUpdated": "Jun 19, 2020 7:25:16 PM",
   "availableTiers": [
     {
       "name": "Unlimited",
@@ -64,7 +55,6 @@
   "endpointSecured": false,
   "endpointAuthDigest": false,
   "transports": "http,https",
-  "inSequence": "aou_view_receipt_out_flow",
   "advertiseOnly": false,
   "corsConfiguration": {
     "corsConfigurationEnabled": false,
@@ -97,7 +87,7 @@
   "environments": [
     "Production and Sandbox"
   ],
-  "createdTime": "1592576702598",
+  "createdTime": "1592574867389",
   "additionalProperties": {},
   "environmentList": [
     "SANDBOX",
