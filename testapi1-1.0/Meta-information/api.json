@@ -1,13 +1,13 @@
 {
   "id": {
     "providerName": "admin",
-    "apiName": "atestapi",
+    "apiName": "abtestapi",
     "version": "1.0"
   },
   "uuid": "18ba7428-bcd2-472b-8765-3c71b6b83bf6",
   "type": "HTTP",
-  "context": "/atestapi/1.0",
-  "contextTemplate": "/atestapi/{version}",
+  "context": "/abtestapi/1.0",
+  "contextTemplate": "/abtestapi/{version}",
   "tags": [],
   "documents": [],
   "lastUpdated": "Jun 27, 2020 1:03:47 PM",
