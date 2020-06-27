@@ -1,16 +1,25 @@
 {
   "id": {
     "providerName": "admin",
+<<<<<<< HEAD
     "apiName": "finaltest1rt",
+=======
+    "apiName": "testapidemo",
+>>>>>>> 1a9546ee91a1e782aab7518e27d91163ef6d475f
     "version": "1.0"
   },
-  "uuid": "77783736-5055-41f1-97b3-60f3924f3f76",
+  "uuid": "9c7712a9-3a1b-415c-87f3-120960f328e0",
   "type": "HTTP",
+<<<<<<< HEAD
   "context": "/testf1rt/1.0",
   "contextTemplate": "/testf1rt/{version}",
+=======
+  "context": "/testapi2demo/1.0",
+  "contextTemplate": "/testapidemo/{version}",
+>>>>>>> 1a9546ee91a1e782aab7518e27d91163ef6d475f
   "tags": [],
   "documents": [],
-  "lastUpdated": "Jun 24, 2020 11:47:49 AM",
+  "lastUpdated": "Jun 19, 2020 8:03:14 PM",
   "availableTiers": [
     {
       "name": "Unlimited",
@@ -78,7 +87,7 @@
       "OPTIONS"
     ]
   },
-  "endpointConfig": "{\"production_endpoints\":{\"url\":\"https://799a7fa7-4a2b-45e8-bb99-44bd1fd7321c.mock.pstmn.io/tr\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"https://799a7fa7-4a2b-45e8-bb99-44bd1fd7321c.mock.pstmn.io/tr\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://localhost:3000/\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://localhost:3000/\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
   "responseCache": "Disabled",
   "cacheTimeout": 300,
   "implementation": "ENDPOINT",
@@ -88,7 +97,7 @@
   "environments": [
     "Production and Sandbox"
   ],
-  "createdTime": "1592979366704",
+  "createdTime": "1592576702598",
   "additionalProperties": {},
   "environmentList": [
     "SANDBOX",
