@@ -1,0 +1,13 @@
+environments:
+    - name: dev
+      endpoints:
+        production:
+          url: http://localhost:9443/
+        sandbox:
+          url: http://localhost:9443/
+    - name: prod
+      endpoints:
+        production:
+          url: http://localhostie:9444/
+        sandbox:
+          url: http://localhostie:9444/
